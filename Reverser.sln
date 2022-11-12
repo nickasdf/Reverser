@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reverser", "Reverser\Reverser.csproj", "{4E2A25BD-FF4A-457F-AB75-5BCBDF3F43F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverserTestss", "ReverserTestss\ReverserTestss.csproj", "{7891F48B-6E27-476D-AC34-77AA7C90C8FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E2A25BD-FF4A-457F-AB75-5BCBDF3F43F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E2A25BD-FF4A-457F-AB75-5BCBDF3F43F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E2A25BD-FF4A-457F-AB75-5BCBDF3F43F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E2A25BD-FF4A-457F-AB75-5BCBDF3F43F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7891F48B-6E27-476D-AC34-77AA7C90C8FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7891F48B-6E27-476D-AC34-77AA7C90C8FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7891F48B-6E27-476D-AC34-77AA7C90C8FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7891F48B-6E27-476D-AC34-77AA7C90C8FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8F40FCB5-4C35-4BD7-BB0D-8318989C7F59}
+	EndGlobalSection
+EndGlobal
