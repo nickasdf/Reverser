@@ -14,7 +14,7 @@
             Console.WriteLine(r.Reverse(stringToReverse));
 
             Console.WriteLine(r.ReverseSeparetly(stringToReverse));
-
+            //
         }
     }
 } 
