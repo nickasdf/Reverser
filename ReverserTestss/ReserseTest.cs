@@ -23,22 +23,7 @@ namespace ReverserTestss
             Assert.Equal(expected, result);
         }
 
-        [Theory]
-        [InlineData("asd asd")]
-        public void It_should_split_string_in_list(String str)
-        {
-            List<string> list = _stu.Split(str);
-            string result1 = list[0];
-            string result2 = list[1];
-
-
-            Assert.Equal(2, list.Count);
-
-            Assert.Equal(list[0] ,result1);
-            Assert.Equal(list[1], result2);
-
-
-        }
+      
 
     }
 }
