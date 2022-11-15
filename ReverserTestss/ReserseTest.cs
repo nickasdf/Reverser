@@ -7,23 +7,21 @@ namespace ReverserTestss
         private readonly StringReverser _stu = new();
 
         [Theory]
-        [InlineData("asd", "dsa")]
-        [InlineData("asd fba", "abf dsa")]
-        public void It_should_reverse_all(string str, string expected)
+        [InlineData("a1bc    d~!ef     g1h", "c1ba    f~!ed     h1g")]
+        
+        public void It_should_reverse_all_separetly(string str, string expected)
         {
-
-            Assert.Equal(expected, _stu.Reverse(str));
+            Assert.Equal(expected, _stu.ReverserSeparetly(str));
         }
 
         [Theory]
-        [InlineData("asd fgh jkl", "dsa hgf lkj")]
-        public void It_should_reverse_separate(string str, string expected)
+        [InlineData("a1bc d~!ef g1h", "h1gf e~!dc b1a")]
+        public void It_should_reverse_all(string str, string expected)
         {
-            string result = _stu.ReverseSeparetly(str);
-            Assert.Equal(expected, result);
+            Assert.Equal(expected, _stu.ReverseWord(str));
         }
 
-      
 
+    
     }
 }

@@ -4,19 +4,13 @@
     {
         static void Main()
         {
-            string stringToReverse = "asd xcb dffh";
+            string stringToReverse = "a1bc d~!ef g1h";
+
 
             StringReverser r = new StringReverser();
 
 
-            Console.WriteLine(stringToReverse);
-
-            Console.WriteLine(r.Reverse(stringToReverse));
-
-            Console.WriteLine(r.ReverseSeparetly(stringToReverse));
-            
-
-            
+            Console.WriteLine(r.ReverseWord(stringToReverse));
         }
     }
 } 
